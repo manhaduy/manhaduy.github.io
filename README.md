@@ -1,1 +1,1 @@
-#manhaduy.github.io
+Food project by CS 290 group
