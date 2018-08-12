@@ -18,7 +18,7 @@ app.use(function(req, res, next){
 });
 
 // mongodb connection
-mongoose.connect("mongodb://localhost:27017/bookworm");
+mongoose.connect("mongodb://manhaduy:Emlasiunhan1@ds141082.mlab.com:41082/cs290");
 var db = mongoose.connection;
 //mongo Error
 
@@ -57,6 +57,6 @@ app.use(function(err, req, res, next) {
 });
 
 // listen on port 3000
-app.listen(3000, function () {
-  console.log('Express app listening on port 3000');
+app.listen(6060, function () {
+  console.log('Express app listening on port 6060');
 });
